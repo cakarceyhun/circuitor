@@ -8,6 +8,6 @@ extern "C" {
 }
 
 #[wasm_bindgen]
-pub fn greet() {
-    alert("Hello, circuitor!");
+pub fn greet() -> String {
+    return "Hello, circuitor!".to_string();
 }
